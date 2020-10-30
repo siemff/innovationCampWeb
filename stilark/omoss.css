@@ -1,0 +1,42 @@
+.velg_meny1{
+    width: 900px;
+}
+.topp_omOss{
+    width: 100%;
+    background-color: #F1BF1A;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.text_omOss{
+    background-color: none;
+    height: auto;
+    width: 50%;
+    margin: 1%;
+    font-family: "Segoe UI";
+    line-height: 30px;
+    padding: 20px;
+}
+.omOss_container{
+    background-color: white;
+    width: 50%;
+    height: 700px;
+    padding: 15px;
+    margin: 1% 1% 1% 0%;
+}
+.bilde_omOss{
+    height: 100%;
+    width: 100%;
+}
+.grid_31{
+    height: 300px;
+    padding: 25px;
+    width: 500px;
+    border-left: 4px solid #F1BF1A; 
+    float: left;
+    padding: 15px;
+    margin:  0px 0px 50px 150px;
+    font-weight: 400;
+    line-height: 30px;
+}

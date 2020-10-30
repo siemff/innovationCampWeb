@@ -1,0 +1,99 @@
+body{
+    color: black;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+.topp_bilde{
+    height: auto;
+    background-color: white;
+    width: 100%;
+    filter: blur(3px);
+    transition: 0.5s;
+}
+.topp_tekst{
+    text-align: center;
+    font-family: "Segoe UI";
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    transition: 0.5s;
+}
+.topp_tekst a{
+    color: black;
+    border-color: black;
+    background-color: #e7e7e7;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: auto;
+    border-radius: 5px;
+    position: absolute;
+    left: 40%;
+}
+.topp_tekst button:focus:hover{
+    background-color: #F1BF1A;
+}
+.container_12{
+    width: 100%;
+    height: auto;  
+    background-color: white;
+    margin: 0px auto;
+    display: inline-block;
+}
+.grid_12{
+    padding:0px 0px 0px 0px;
+    color: #444444;
+    font-family: Sansita; 
+    font-size: 50px;
+    font-weight: 700;
+}
+.grid_3{
+    width: 500px;
+    height: 170px;
+    border: solid #F1BF1A;
+    float: left;
+    padding: 15px;
+    margin:  0px 0px 50px 150px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.velg_meny{
+    background-color: #F1BF1A;
+    max-height: auto;
+    padding-top: 20px;
+    padding-left: 210px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.velg_meny a:hover{
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+.velg_meny a{
+    margin: 2%;
+    border-radius: 30px;
+    background: #f5f5f5;
+    box-shadow: 0px 8px 8px rgba(0,0,0,0.2);
+}
+.velg_meny1{
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    max-height: auto; 
+    padding: 30px;
+    margin: 60px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
